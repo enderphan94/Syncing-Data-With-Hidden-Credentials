@@ -1,5 +1,14 @@
 # Syncing-Data-With-Hidden-Credential
 
+# Description
+
+It maps data out from AD Groups and external input, then on correlates with its AD group name and Folder's name.
+
+- Ownder Update
+- Description Update
+- Notes Update
+
+# Hidden credential
 ```
 read-host -assecurestring | convertfrom-securestring | out-file C:\Users\p998wph\Documents\Ender4\password.txt
 function cred{
