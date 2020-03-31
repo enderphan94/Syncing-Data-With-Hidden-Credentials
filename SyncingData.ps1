@@ -2,8 +2,8 @@ param(
     [string]$scriptPath ="C:\Temp\BO\",
     [string]$BOData = $scriptPath + "BORawData.csv",
     [string]$serviceAccountName = "STM\8wph",
-    [string]$server = "STMF.STM.SE",
-    [string]$zabbix_url= $null,#"https://detect.net/ZBX/api/sender.php",
+    [string]$server = "kubertu.se",
+    [string]$zabbix_url= $null,#"https://zabbix.se/api/sender.php",
     [string]$targetHost = "srv68.f.myt.se"
 )
 
