@@ -3,7 +3,7 @@ param(
     [string]$BOData = $scriptPath + "BORawData.csv",
     [string]$serviceAccountName = "STM\8wph",
     [string]$server = "kubertu.se",
-    [string]$zabbix_url= $null,#"https://zabbix.se/api/sender.php",
+    [string]$zabbix_url= $null,
     [string]$targetHost = "srv68.f.myt.se"
 )
 
